@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-declaration-quotes",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Enforce consistent use of quotes for import/export declarations",
   "main": "src/index.js",
   "author": "Ronen Kelman",
