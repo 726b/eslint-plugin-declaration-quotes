@@ -1,0 +1,55 @@
+{
+	"root": true,
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"plugins": [
+		"eslint-plugin"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:eslint-plugin/recommended"
+	],
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module"
+	},
+	"rules": {
+		"comma-dangle": [
+			"error",
+			"always-multiline"
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"curly": [
+			"error",
+			"all"
+		],
+		"indent": [
+			"error",
+			"tab"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"eslint-plugin/consistent-output": [
+			"error",
+			"always"
+		],
+		"eslint-plugin/meta-property-ordering": "error",
+		"eslint-plugin/no-deprecated-context-methods": "error",
+		"eslint-plugin/no-deprecated-report-api": "off",
+		"eslint-plugin/prefer-replace-text": "error",
+		"eslint-plugin/report-message-format": "error",
+		"eslint-plugin/require-meta-schema": "error",
+		"eslint-plugin/require-meta-type": "error"
+	}
+}
