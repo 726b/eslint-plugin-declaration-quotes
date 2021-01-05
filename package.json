@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-declaration-quotes",
+  "version": "0.1.6",
+  "description": "Enforce consistent use of quotes for import/export declarations",
+  "main": "src/index.js",
+  "author": "Ronen Kelman",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-plugin-eslint-plugin": "^2.3.0",
+    "mocha": "^8.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.2.0"
+  }
+}
