@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-declaration-quotes",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "Enforce consistent use of quotes for import/export declarations",
 	"author": "Ronen Kelman",
 	"license": "MIT",
