@@ -1,6 +1,6 @@
 # eslint-plugin-declaration-quotes
 
-For those of us who use backticks as default quotes, this plugin will enforce consistent use of single or double quotes for import/export declarations.
+This plugin will enforce consistent use of single or double quotes for import/export declarations.
 
 ## Options
 

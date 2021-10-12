@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-declaration-quotes",
-	"version": "0.2.2",
+	"version": "0.3.0",
 	"description": "Enforce consistent use of quotes for import/export declarations",
 	"author": "Ronen Kelman",
 	"license": "MIT",
@@ -22,12 +22,12 @@
 		"export"
 	],
 	"devDependencies": {
-		"eslint": "^7.32.0",
+		"eslint": "^7.32.0 || ^8.0.0",
 		"eslint-plugin-eslint-plugin": "^3.5.3",
 		"mocha": "^9.0.3"
 	},
 	"peerDependencies": {
-		"eslint": "^7.2.0"
+		"eslint": "^7.2.0 || ^8.0.0"
 	},
 	"scripts": {
 		"test": "mocha tests --recursive"

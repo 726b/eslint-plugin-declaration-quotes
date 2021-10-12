@@ -34,6 +34,8 @@ module.exports = {
 				enum: ["single", "double"],
 			},
 		],
+
+		hasSuggestions: false,
 	},
 
 	create(context) {
